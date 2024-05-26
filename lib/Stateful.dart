@@ -18,6 +18,12 @@ class _Body_container extends State<Body_container> {
     });
   }
 
+  void onPressedwithint(int a) {
+    setState(() {
+      _counter += a;
+    });
+  }
+
   void onReset() {
     setState(() {
       _counter = 0;
