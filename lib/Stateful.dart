@@ -43,7 +43,8 @@ class _Body_container extends State<Body_container> {
           TextButton(
             onPressed: onReset,
             child: Text("reset"),
-          )
+          ),
+          TextButton(onPressed: onReset, child: Text("+1000"))
         ],
       ),
     );
